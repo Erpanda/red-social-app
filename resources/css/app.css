@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.scroll-custom-post::-webkit-scrollbar {
+    width: 5px;
+    background: transparent;
+}
+
+.scroll-custom-post::-webkit-scrollbar-button {
+    display: none;
+}
+.scroll-custom-post::-webkit-scrollbar-track {
+    background: transparent;
+    margin: 8px 0;
+}
+
+.scroll-custom-post::-webkit-scrollbar-thumb {
+    background: rgba(85, 93, 105, 0.7);   /* semi-transparente para que se integre mejor */
+    border-radius: 10px;
+}
+
+.scroll-custom-post::-webkit-scrollbar-thumb:hover {
+    background: rgba(85, 93, 105, 1);
+}
+
+/* Firefox */
+/* .scroll-custom-post {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(85, 93, 105, 0.7) transparent;
+} */
+
+
+
+
+
+
+.scroll-custom::-webkit-scrollbar {
+    width: 0;
+}
+
+.scroll-custom::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scroll-custom::-webkit-scrollbar-thumb {
+    background: #374151; /* gray-700 */
+    border-radius: 999px;
+}
+
+.scroll-custom::-webkit-scrollbar-thumb:hover {
+    background: #facc15; /* yellow-400 */
+}
+
+
+
+
+
+
+
+
+
+#btnSubmitAccion {
+    background-color: #eab308;
+    color: #111827;
+}
+
+#btnSubmitAccion:hover {
+    background-color: #facc15;
+}
+
+#btnSubmitAccion:active {
+    background-color: #ca8a04;
+}
+
+#btnSubmitAccion:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #111827, 0 0 0 4px #facc15;
+}
+
+#btnSubmitAccion:disabled {
+    background-color: #4b5563;
+    color: #d1d5db;
+    cursor: not-allowed;
+}
+
+#btnSubmitAccion:disabled:hover {
+    background-color: #4b5563;
+}

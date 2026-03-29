@@ -1,0 +1,21 @@
+{
+  "public/img/fondo.jpg": {
+    "file": "assets/fondo-CWPSD0AE.jpg",
+    "src": "public/img/fondo.jpg"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-B6plCtql.css",
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "name": "app",
+    "names": [
+      "app.css"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-DYzogO-6.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
