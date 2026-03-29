@@ -27,3 +27,10 @@ README.md
 datos.txt
 home-light.txt
 acceso-light.txt
+
+.env.testing
+/storage/app/public
+/storage/logs
+/storage/framework/cache
+/storage/framework/sessions
+/storage/framework/views
