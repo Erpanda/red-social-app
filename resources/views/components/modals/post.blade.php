@@ -20,7 +20,7 @@
             <!-- Usuario y privacidad -->
             <div class="flex items-start gap-3">
                 <div class="w-11 h-11 rounded-full bg-gray-700 overflow-hidden shrink-0">
-                    <img src="{{ Auth::user()->avatar }}" alt="Avatar de Frank" class="w-full h-full object-cover">
+                    <img src="{{ Auth::user()->avatar ? Auth::user()->avatar : asset('img/perfil.jpg') }}" alt="Avatar de Frank" class="w-full h-full object-cover">
                 </div>
                 <div class="flex justify-between w-full">
                     <div>
